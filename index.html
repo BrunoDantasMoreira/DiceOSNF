@@ -1,0 +1,116 @@
+<#!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dados OSNF</title>
+  <link rel="icon" href="./imagens/download.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsivel.css" />
+</head>
+
+<body>
+  <header>
+    <h1>SIMULADOR DE DADOS DE RPG</h1>
+  </header>
+
+  <section>
+    <div id="superior-esquerdo">
+      <!-- <input type="button" > -->
+      <a href="https://twitter.com/search?q=%23osegredonafloresta&src=related_query_click" target="_blank"
+        rel="external" title="twitter">o</a>
+    </div>
+
+    <div id="superior-direito">
+      <!-- <input type="button"> -->
+      <a href="file:///home/bruno/Courses/Dices/DiceDesconjura%C3%A7ao/index.html"
+        title="Desconjuração">O</a>
+
+    </div>
+
+    <div id="listra"><br></div>
+
+    <h2>O que você quer fazer ?</h2>
+
+    <h3 id="rd">
+      <input type="button" value="Rolar Dado" onclick="rollDice()" class="botao" id="botao1" />
+      <input type="button" value="Rolar Dado Com Penalidade" onclick="rollDiceP()" class="botao" id="botao2" />
+      <input type="button" value="Rolar Dado Com Soma" onclick="rollDiceWS()" class="botao" id="botao3" />
+      <input type="button" value="Rolar Mais De Um Dado" onclick="rollDices()" class="botao" id="botao4" />
+
+    </h3>
+
+    <p><br></p>
+
+    <p>
+      <!-- <input type="radio" name='nao' id='simounao' onclick="ativar1()" checked>
+            <label for="simounao">Com Atributo</label> 
+
+            <input type="radio" name='nao' id='naoousim' onclick="desativar1()">
+            <label for="naoousim">Sem Atributo</label> -->
+    </p>
+
+
+
+    <p id="dado1">
+      <!-- Dado:  d<input type="number" name="dado" id="dado"> -->
+    </p>
+
+    <p>
+      <!-- Quant: <input type="number" name="quantidade" id="quantidade" value="1">  -->
+    </p>
+
+    <p id="resdado">
+      <!-- <input type="button" value="Rolar" onclick="roll()">   -->
+    </p>
+
+    <div id="resp">
+      <div id="atributos" style="opacity: 0%;"></div>
+      <div id="res"></div>
+    </div>
+
+
+    <div id="foto">
+      <div id="slider">
+        <img id="OSNF" class="selected" src="imagens/OSNF.jpeg" width="392px" height="223px" />
+        <img id="ONSF2" src="imagens/OSNF2.png" width="392px" height="223px" />
+        <img id="ONSF3" src="imagens/OSNF3.jpg" width="392px" height="223px" />
+        <img id="ONSF4" src="imagens/OSNF4.jpg" width="392px" height="223px" />
+        <img id="ONSF5" src="imagens/OSNF5.jpeg" width="392px" height="223px" />
+        <img id="ONSF6" src="imagens/OSNF6.jpeg" width="392px" height="223px" />
+        <img id="ONSF7" src="imagens/OSNF7.jpeg" width="392px" height="223px" />
+        <img id="ONSF8" src="imagens/OSNF8.png" width="392px" height="223px" />
+      </div>
+
+
+
+      <div>
+        <input type="button" class="botao" id="limpar" value="Limpar" onclick="limpar()" />
+      </div>
+
+      <div id="inferior-esquerdo">
+        <!-- <input type="button"> -->
+      </div>
+
+      <div id="inferior-direito">
+        <!-- <input type="button"> -->
+      </div>
+  </section>
+
+  <div>
+    <iframe src="janela.html" frameborder="0" id="janela"></iframe>
+  </ul>
+  </div>
+
+  <footer>
+    <p>&COPY; Ordem Paranormal RPG</p>
+  </footer>
+
+  <script src="./script/rollDice.js"></script>
+  <script src="./script/rollDiceP.js"></script>
+  <script src="./script/rollDiceWS.js"></script>
+  <script src="./script/rollDices.js"></script>
+</body>
+
+</html>
