@@ -79,6 +79,22 @@ h3#rd {
     box-shadow: 1px 1px black;
 }
 
+
+1
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+2
+
+​
+
+3
+
+36
+
+    background: white;
+
+body {
 .botao:hover {
     background: rgb(231, 231, 29);
     border-color: rgb(231, 231, 29);
@@ -285,7 +301,7 @@ ul::-webkit-scrollbar-thumb:active {
 
 #sim {
     display: inline-block;
-    margin: -5px;
+    margin: -9px;
     padding: 0px 10px;
     margin-bottom: 0;
     width: 120px;
