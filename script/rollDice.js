@@ -38,6 +38,7 @@ function roll() {
 
 function desativar() {
   var dice1 = document.querySelector("p#dado1");
+  document.getElementById("janela").style.height = "0px";
   document.getElementById("janela").style.opacity = '0%';
   dice1.innerHTML = 
   '<input type="radio" name="nao" id="simounao" onclick="ativar1()" checked style="position: relative; bottom:1000px;"> <label for="simounao" id="sim" style="position: relative; right: 5px;">Com Atributo</label> ' +
@@ -48,6 +49,7 @@ function desativar() {
 
 function desativar1() {
   var dice1 = document.querySelector("p#dado1");
+  document.getElementById("janela").style.height = "0px";
   document.getElementById("janela").style.opacity = '0%';
   dice1.innerHTML = 
   '<input type="radio" name="nao" id="simounao" onclick="ativar2()" checked style="position: relative; bottom:1000px;"> <label for="simounao" id="sim" style="position: relative; right: 5px;">Com Atributo</label> ' +
@@ -61,6 +63,7 @@ function desativar2() {
   var dice1 = document.querySelector("p#dado1");
   document.getElementById("atributos").remove();
   document.getElementById("latributos").remove();
+  document.getElementById("janela").style.height = "0px";
   document.getElementById("janela").style.opacity = '0%';
   dice1.innerHTML = 
   '<input type="radio" name="nao" id="simounao" onclick="ativar3()" checked style="position: relative; bottom:1000px;"> <label for="simounao" id="sim" style="position: relative; right: 5px;">Com Atributo</label> ' +
