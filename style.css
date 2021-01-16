@@ -285,7 +285,7 @@ ul::-webkit-scrollbar-thumb:active {
 
 #sim {
     display: inline-block;
-    margin: -2px;
+    margin: -5px;
     padding: 0px 10px;
     margin-bottom: 0;
     width: 120px;
