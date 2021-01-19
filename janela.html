@@ -32,53 +32,101 @@
             color: rgb(84, 84, 84);
         }
 
+        input {
+            border-radius: 4px;
+            -moz-border-radius:4px;
+            -webkit-border-radius:4px;
+            border-color: white;
+            box-shadow: 1px 1px 2px #ffffff;
+            -moz-box-shadow: 1px 1px 2px #ffffff;
+            -webkit-box-shadow: 1px 1px 2px #ffffff;
+            background: #ffffff; 
+            border:1px solid #ffffff;
+            width: 15px;
+            height: 15px;
+            opacity: 94%;
+            background-color: rgba(255, 255, 255, 1);
+        }
+        
+        textarea{
+            border: 1px solid #ffffff;
+            background:#ffffff;
+            width:30px;
+            height:0px;
+            border-radius:4px;
+            -moz-border-radius:4px;
+            -webkit-border-radius:4px;
+            box-shadow: 1px 1px 2px #333333;
+            -moz-box-shadow: 1px 1px 2px #333333;
+            -webkit-box-shadow: 1px 1px 2px #333333;
+        }
+        
+        input[type=text]:hover, textarea:hover {          
+            background: #ffffff; 
+            border:1px solid #ffffff;
+        
+        }input[type=submit] {        
+            background:#ffffff;        
+            color:#ffffff;
+        }
+
+        input[type=number]::-webkit-inner-spin-button { 
+            -webkit-appearance: none;
+        }
+    
+        input[type=number] { 
+            -moz-appearance: textfield;
+            appearance: textfield;
+        }
+
+
     </style>
 </head>
 <body>
     <ul type="none">
         <!-- <code> -->
-            <li>Antropologia____________1</li>
-            <li>Aparencia______________35</li>
-            <li>Armas_De_Fogo__________20</li>
-            <li>Arqueologia_____________1</li>
-            <li>Arremessar_____________50</li>
-            <li>Arte_e_Oficio___________45</li>
-            <li>Avaliação_______________5</li>
-            <li>Charme_________________54</li>
-            <li>Chaveiro________________1</li>
-            <li>Ciência_________________1</li>
-            <li>Contabilidade___________5</li>
-            <li>Concerto_______________10</li>
-            <li>Constituição___________59</li>
-            <li>Destreza_______________93</li>
-            <li>Direito_________________5</li>
-            <li>Dirigir________________56</li>
-            <li>Disfarce________________5</li>
-            <li>Educação_______________72</li>
-            <li>Eletronica______________1</li>
-            <li>Encontrar_______________9</li>
-            <li>Escalar________________20</li>
-            <li>Escutar________________20</li>
-            <li>Esquivar________________7</li>
-            <li>Exposição_Paranormal___22</li>
-            <li>Força__________________55</li>
-            <li>Furtividade_____________9</li>
-            <li>Historia_______________20</li>
-            <li>Intimidação____________45</li>
-            <li>Labia__________________30</li>
-            <li>Lingua_________________72</li>
-            <li>Luta____________________5</li>
-            <li>Medicina________________1</li>
-            <li>Mundo_Natural__________20</li>
-            <li>Natação________________10</li>
-            <li>Navegação______________20</li>
-            <li>Nivel_de_Credito_______55</li>
-            <li>Ocultismo_______________5</li>
-            <li>Máquinario______________5</li>
-            <li>Poder__________________55</li>
-            <li>Sanidade_______________65</li>
-            <li>Sorte__________________45</li>
-            <li>Tamanho________________35</li>
+            <li>Antropologia_________<input type="number" value="01"></li> 
+            <li>Aparencia____________<input type="number" value="35"></li>
+            <li>Armas_De_Fogo________<input type="number" value="20"></li>
+            <li>Arqueologia__________<input type="number" value="01"></li>
+            <li>Arremessar___________<input type="number" value="50"></li>
+            <li>Arte_e_Oficio_________<input type="number" value="45"></li>
+            <li>Avaliação____________<input type="number" value="05"></li>
+            <li>Charme_______________<input type="number" value="54"></li>
+            <li>Chaveiro_____________<input type="number" value="01"></li>
+            <li>Ciência______________<input type="number" value="01"></li>
+            <li>Contabilidade________<input type="number" value="05"></li>
+            <li>Concerto_____________<input type="number" value="10"></li>
+            <li>Constituição_________<input type="number" value="59"></li>
+            <li>Destreza_____________<input type="number" value="93"></li>
+            <li>Direito______________<input type="number" value="05"></li>
+            <li>Dirigir______________<input type="number" value="56"></li>
+            <li>Disfarce_____________<input type="number" value="05"></li>
+            <li>Educação_____________<input type="number" value="72"></li>
+            <li>Eletronica___________<input type="number" value="01"></li>
+            <li>Encontrar____________<input type="number" value="09"></li>
+            <li>Escalar______________<input type="number" value="20"></li>
+            <li>Escutar______________<input type="number" value="20"></li>
+            <li>Esquivar_____________<input type="number" value="07"></li>
+            <li>Exposição_Paranormal_<input type="number" value="22"></li>
+            <li>Força________________<input type="number" value="55"></li>
+            <li>Furtividade__________<input type="number" value="09"></li>
+            <li>Historia_____________<input type="number" value="20"></li>
+            <li>Intimidação__________<input type="number" value="45"></li>
+            <li>Labia________________<input type="number" value="30"></li>
+            <li>Lingua_______________<input type="number" value="72"></li>
+            <li>Luta_________________<input type="number" value="05"></li>
+            <li>Medicina_____________<input type="number" value="01"></li>
+            <li>Mundo_Natural________<input type="number" value="20"></li>
+            <li>Natação______________<input type="number" value="10"></li>
+            <li>Navegação____________<input type="number" value="20"></li>
+            <li>Nivel_de_Credito_____<input type="number" value="55"></li>
+            <li>Ocultismo____________<input type="number" value="05"></li>
+            <li>Máquinario___________<input type="number" value="05"></li>
+            <li>Poder________________<input type="number" value="55"></li>
+            <li>Sanidade_____________<input type="number" value="65"></li>
+            <li>Sorte________________<input type="number" value="45"></li>
+            <li>Tamanho______________<input type="number" value="35"></li>
         <!-- </code> -->
     </ul>
 </body>
