@@ -75,7 +75,6 @@ function desativar2() {
 
 function ativar1() {
   var dice1 = document.querySelector("p#dado1");
-  var atributos = document.getElementById("resdado1");
   document.getElementById("OSNF").style.opacity = "0%";
   document.getElementById("OSNF").style.height = "1px";
   document.getElementById("slider").style.opacity = "0%";
