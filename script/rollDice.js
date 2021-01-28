@@ -7,7 +7,7 @@ function rollDice() {
   document.getElementById("janela").style.opacity = "100%";
   document.getElementById("janela").style.height = "200px";
   document.getElementById("janela").style.bottom = "250px";
-  document.getElementById("janela").style.left = "245px";
+  // document.getElementById("janela").style.left = "245px";
   document.getElementById("limpar").style.opacity = "100%";
 
   dice1.innerHTML =
