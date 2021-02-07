@@ -9,18 +9,7 @@ body {
     overflow-y: auto;
      
 }
-body::-webkit-scrollbar {
-    width: 10px
-} 
 
-body::-webkit-scrollbar-thumb {   
-    background-color: darkgrey;   
-    border-radius: 5px;
-}
-
-body::-webkit-scrollbar-thumb:active {   
-            background-color: rgb(87, 87, 87);
-}
 
 header {
     color: rgb(255, 255, 255);
@@ -32,15 +21,18 @@ header {
 }
 
 section {
-    background: white;
+    background: #ffffff;
     border-radius: 15px;
     padding: 15px;
     width: 900px;
     height: auto;
     margin: auto;
-    box-shadow: 5px 5px 15px yellow;
     text-align: center;
     opacity: 94%;
+}
+
+section:hover {
+    box-shadow: 5px 5px 15px #f1c40f;
 }
 
 footer {
@@ -68,27 +60,33 @@ h3#rd {
     padding: 6px 12px;
     text-decoration: none;
     transition: background 0.3s linear 0s;
-    border-color: yellow;
+    border-color: #f1c40f;
     color: rgba(0, 0, 0, 0.8);
     font-weight: 300;
     cursor: pointer;
-    /* text-shadow: 1px 1px rgb(0, 0, 0); */
     font: bolder;
     background-color: white;
     box-shadow: 1px 1px black;
+
+
 }
 
 .botao:hover {
-    background: rgb(231, 231, 29);
-    border-color: rgb(231, 231, 29);
+    border-color: #f9ca24;
     color: #ffffff;
-    text-shadow: 1px 1px black;
-    
+    text-shadow: 1px 1px black; 
+    background-color: #f6e58d;
+    background-image: -moz-linear-gradient(top,#f6e58d,#f9ca24);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f6e58d),to(#f9ca24));
+    background-image: -webkit-linear-gradient(top,#f6e58d,#f9ca24);
+    background-image: -o-linear-gradient(top,#f6e58d,#f9ca24);
+    background-image: linear-gradient(to bottom,#f6e58d,#f9ca24);
 } 
+
 
 .botao:active {
     position: relative;
-    top: 5px;
+    top: 1px;
     box-shadow: 0 5px 0 #ffffff;
 }
 
@@ -114,18 +112,21 @@ h3#rd {
 }
 
 .btn-green {
-    background: green;
+    background-color: #2aa917;
     color: #ffffff;
-    box-shadow: 0 5px 0 #006000;
+    box-shadow: 0 5px 0 #217814;
     border-radius: 5px;
     font-family: sans-serif; 
 }
 
+
 .btn-green:hover {
-    background: #006000;
+    background: #1d890c;
     color: #ffffff;
-    box-shadow: 0 5px 0 #003f00;
+    box-shadow: 0 5px 0 #19680d;
 }
+
+
 
 .btn-green:active {
     position: relative;
@@ -170,14 +171,14 @@ img#OSNF4 {
 }
 
 h2 {
-    color: yellow;
     text-shadow: 1px 1px black; 
+    color: #f9ca24;
 }
 
 
 div#superior-esquerdo {
     position: relative;
-    background-color: #696969;
+    background-color: #535c68;
     width: 12px;
     height: 12px;
     border-radius: 6px;
@@ -187,7 +188,7 @@ div#superior-esquerdo {
 }
 div#superior-direito {
     position: relative;
-    background-color: #696969;
+    background-color: #535c68;
     width: 12px;
     height: 12px;
     border-radius: 6px;
@@ -295,18 +296,18 @@ ul::-webkit-scrollbar-thumb:active {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    background-color: #D8AB39;
-    background-image: -moz-linear-gradient(top,#D8AB39,#D3A529);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#D8AB39),to(#D3A529));
-    background-image: -webkit-linear-gradient(top,#D8AB39,#D3A529);
-    background-image: -o-linear-gradient(top,#D8AB39,#D3A529);
-    background-image: linear-gradient(to bottom,#D8AB39,#D3A529);
+    background-color: #f9ca24;
+    background-image: -moz-linear-gradient(top,#f9ca24,#f0932b);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f9ca24),to(#f0932b));
+    background-image: -webkit-linear-gradient(top,#f9ca24,#f0932b);
+    background-image: -o-linear-gradient(top,#f9ca24,#f0932b);
+    background-image: linear-gradient(to bottom,#f9ca24,#f0932b);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8AB39',endColorstr='#D3A529',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9ca24',endColorstr='#f0932b',GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     border: none;
-    border-right: 1px solid #B48C25;
-    border-bottom: 1px solid #B48C25;
+    border-right: 1px solid #f0932b;
+    border-bottom: 1px solid #f0932b;
     border-radius: 5px;
     -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.05);
     -moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.2),0 1px 2px rgba(0,0,0,0.05);

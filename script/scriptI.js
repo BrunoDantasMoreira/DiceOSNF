@@ -24,4 +24,8 @@ function start() {
     }, time)
 }
 
+function change() {
+    nextImage()
+}
+
 window.addEventListener("load", start)
