@@ -7,9 +7,24 @@ body {
     color:  rgba(0, 0, 0, 0.8);
     overflow-x: hidden;  
     overflow-y: auto;
-     
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {   
+    background-color: rgb(132, 132, 132);   
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:active {   
+    background-color: rgb(87, 87, 87);
+}
+
+body::-webkit-scrollbar-track {
+    background-image: url('../imagens/download.jpeg');
+}
 
 header {
     color: rgb(255, 255, 255);
@@ -263,15 +278,6 @@ a {
     font-family: 'Courier Prime', sans-serif, monospace;
     font-size: 13px;
     overflow-x: hidden;
-}  
-
-ul::-webkit-scrollbar-thumb {   
-    background-color: darkgrey;   
-    border-radius: 5px;
-}
-
-ul::-webkit-scrollbar-thumb:active {   
-    background-color: rgb(87, 87, 87);
 }
 
 #sdado, #atributos, #soma, #quantidade {
