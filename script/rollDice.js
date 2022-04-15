@@ -56,7 +56,7 @@ function desativar1() {
   '<input type="radio" name="nao" id="naoousim" onclick="desativar1()">  <label for="naoousim" id="sim" style="background-image: none; outline: 0; -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05); box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); background-color: #91711B; border-right: 1px solid #B48C25;"">Sem Atributo</label> ' +
   '<p> <label for="sdado">Dado: </label>  <input type="number" name="dado" id="sdado" style="width:50px;" value="100"> </p> ' +
   '<p> Soma: <input type="number" name="soma" id="soma" style="width:50px;"> </p> ' +
-  '<p> <input type="button" value="Rolar" onclick="roll()" id="final" class="btn btn-green"> </p>'
+  '<p> <input type="button" value="Rolar" onclick="rollWS()" id="final" class="btn btn-green"> </p>'
 }
 
 function desativar2() {
@@ -67,10 +67,10 @@ function desativar2() {
   document.getElementById("janela").style.opacity = '0%';
   dice1.innerHTML = 
   '<input type="radio" name="nao" id="simounao" onclick="ativar3()" checked style="position: relative; bottom:1000px;"> <label for="simounao" id="sim" style="position: relative; right: 5px;">Com Atributo</label> ' +
-  '<input type="radio" name="nao" id="naoousim" onclick="desativar1()">  <label for="naoousim" id="sim" style="background-image: none; outline: 0; -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05); box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); background-color: #91711B; border-right: 1px solid #B48C25;"">Sem Atributo</label> ' +
+  '<input type="radio" name="nao" id="naoousim" onclick="desativar2()">  <label for="naoousim" id="sim" style="background-image: none; outline: 0; -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05); box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05); background-color: #91711B; border-right: 1px solid #B48C25;"">Sem Atributo</label> ' +
   '<p> <label for="sdado">Dado: </label>  <input type="number" name="dado" id="sdado" style="width:50px;" value="100"> </p> ' +
   '<p> Quant: <input type="number" name="quantidade" id="quantidade" value="2" style="width:50px;"> </p> ' +
-  '<p> <input type="button" value="Rolar" onclick="roll()" id="final" class="btn btn-green"> </p>'
+  '<p> <input type="button" value="Rolar" onclick="rolls()" id="final" class="btn btn-green"> </p>'
 }
 
 function ativar1() {
